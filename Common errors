@@ -5,3 +5,15 @@
  and the second identifies the location of an XSD schema document for that namespace.
  Resolution:
  Update the namespace/location in the relevant file.
+ 
+ 
+ Error:
+ The matching wildcard is strict, but no declaration can be found for element 'jms:inbound-channel-adapter'
+ Meaning:
+ The xmlns is missing the "xmlns:jms" namespace handler.
+ 
+
+Error:
+Unable to locate Spring NamespaceHandler for XML schema namespace xxxxxxxxxxxxxxxx
+Meaning:
+There is a missing dependency in the pom.xml
