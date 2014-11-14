@@ -1,0 +1,7 @@
+ Error:
+ http://activemq.apache.org/schema/core/activemq-core.xsd' must have even number of URI's.
+ Meaning:
+ The xsi:schemaLocation attribute takes a list of URI pairs, where the first member of each pair is a namespace name 
+ and the second identifies the location of an XSD schema document for that namespace.
+ Resolution:
+ Update the namespace/location in the relevant file.
